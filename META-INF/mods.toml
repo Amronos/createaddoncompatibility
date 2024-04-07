@@ -7,7 +7,7 @@ showAsResourcePack=false
 
 [[mods]]
 modId="create_addon_compatibility"
-version="0.1.0"
+version="0.1.0a"
 displayName="Create: Addon Compatibility"
 #updateJSONURL=""
 displayURL="https://modrinth.com/mods/create-addon-compatibility"
