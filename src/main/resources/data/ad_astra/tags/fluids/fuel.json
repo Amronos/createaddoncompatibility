@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "createdieselgenerators:plant_oil",
+        "createdieselgenerators:biodiesel",
+        "createdieselgenerators:gasoline",
+        "createdieselgenerators:ethanol",
+        "createdieselgenerators:diesel",
+        "tfmg:gasoline",
+        "tfmg:flowing_gasoline",
+        "tfmg:diesel",
+        "tfmg:flowing_diesel",
+        "createaddition:bioethanol",
+        "createaddition:flowing_bioethanol"
+    ]
+}

@@ -1,38 +1,44 @@
 # Create: Addon Compatibility
 
-## Current Compatibility Features
+## Features
 
+### Fluids
 
-### [Destroy](https://modrinth.com/mod/destroy), [Create: Diesel Generators](https://modrinth.com/mod/create-diesel-generators), [Create: The Factory Must Grow](https://modrinth.com/mod/create-tfmg):
+<details>
+<summary>Crude Oil</summary>
 
-1. Crude Oil from all three mods will work in ALL distillation processes which require crude oil.<br><br>
-2. Diesel and Gasoline from TFMG will work in CDG's Diesel Generators.<br><br>
-3. Currently fuels from CDG don't work in TFMG generators as TFMG doesn't have support for custom fuels. _(A work-around could be found.)_<br><br>
-4. Mixtures produced from Destroy's Distillation currently can't be used for generators from the other two mods as Destroy is still in beta and the mixtures currently produced all have the same id. _(A work-around could be found.)_<br><br>
+Mods: [Ad Astra](https://modrinth.com/mod/ad-astra), [CDG](https://modrinth.com/mod/create-diesel-generators), [Destroy](https://modrinth.com/mod/destroy), [Pneumaticcraft](https://modrinth.com/mod/pneumaticcraft-repressurized), [TFMG](https://modrinth.com/mod/create-tfmg) <br>
+Crude Oil from all these mods works in all distillation processes requiring it present in these mods.<br>
 
+</details>
 
-### [Create: Diesel Generators](https://modrinth.com/mod/create-diesel-generators), [Create Crafts & Additions](https://modrinth.com/mod/createaddition):
+<details>
+<summary>Fuels</summary>
 
-1. Bio Fuel/bioethanol from Create Crafts & Additions wil work in CDG's diesel generators.<br><br>
+Mods: [Ad Astra](https://modrinth.com/mod/ad-astra), [CC&A](https://modrinth.com/mod/createaddition), [CDG](https://modrinth.com/mod/create-diesel-generators), [CSnR](https://modrinth.com/mod/create-steam-n-rails), [Destroy](https://modrinth.com/mod/destroy), [Create Garnished](https://modrinth.com/mod/create-garnished), [Pneumaticcraft](https://modrinth.com/mod/pneumaticcraft-repressurized), [TFMG](https://modrinth.com/mod/create-tfmg)<br>
+Various fuels from these mods work in various processes and recipes of CC&A.<br>
+Various fuels from these mods work in CDG's Diesel Generators.<br>
+Various fuels from these mods work in various processes and recipes of Pneumaticcraft.<br>
+Various fuels from these mods work in CSnR's trains.<br>
+Currently only TFMG's fuels work in its generators as TFMG does not have support for custom fuel types.(_A work-around could be found._)<br>
 
+</details>
+
+<details>
+<summary>Kerosene, Molten/Liquid Plastic, Lubricant/Lubrication Oil</summary>
+
+Mods: [Pneumaticcraft](https://modrinth.com/mod/pneumaticcraft-repressurized), [TFMG](https://modrinth.com/mod/create-tfmg)<br>
+Kerosene, Molten/Liquid Plastic, Lubricant/Lubrication Oil from both mods works in both mods' processes and recipes.
+
+</details>
 <br><br>
 
 ## Installation
-The mod is currently only available for 1.20.1 forge. Fabric/Quilt versions and 1.19.2 versions may come later.<br>
-[Almost Unified](https://modrinth.com/mod/almost-unified) is a required dependency as it unifies various items and the mod was tested with it.<br>
+The mod is currently only available for 1.20.1 (neo)forge. Fabric/Quilt versions and 1.19.2 versions may come later.<br>
+[Almost Unified](https://modrinth.com/mod/almost-unified) is required to be installed.<br>
 
 <br><br>
 
 ## Suggestions / More Compatibility Features
 
-I do have more compatibility features planned, but if you have any ideas feel free to create an issue on github or tell me in the discord server.<br>
-
-
-<br><br><br>
-
-
-## My Other Projects
-
-[Reminiscent Create](https://modrinth.com/modpack/reminiscent-create)<br>
-[Reminiscent Vanilla](https://modrinth.com/modpack/reminiscent-vanilla)<br>
-[Reminiscent Armory](https://modrinth.com/datapack/reminiscent-armory)
+I do have more compatibility features planned, but if you have any ideas feel free to create an issue on GitHub or tell me in the Discord server.

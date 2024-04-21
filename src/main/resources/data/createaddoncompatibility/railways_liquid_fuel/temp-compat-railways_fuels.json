@@ -1,0 +1,9 @@
+{
+    "fluids": [
+      "#forge:diesel",
+      "#forge:ethanol",
+      "#forge:gasoline",
+      "#forge:plantoil"
+    ],
+    "fuel_ticks": 20
+  }
