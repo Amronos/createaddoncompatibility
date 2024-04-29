@@ -1,0 +1,28 @@
+{
+  "values": [
+    {
+      "id": "ad_astra:oil",
+      "required": false
+    },
+    {
+      "id": "ad_astra:flowing_oil",
+      "required": false
+    },
+    {
+      "id": "pneumaticcraft:oil",
+      "required": false
+    },
+    {
+      "id": "pneumaticcraft:flowing_oil",
+      "required": false
+    },
+    {
+      "id": "tfmg:crude_oil_fluid",
+      "required": false
+    },
+    {
+      "id": "tfmg:flowing_crude_oil_fluid",
+      "required": false
+    }
+  ]
+}

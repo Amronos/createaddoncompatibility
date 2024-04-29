@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "createaddition:bioethanol",
+      "required": false
+    },
+    {
+      "id": "createaddition:flowing_bioethanol",
+      "required": false
+    }
+  ]
+}

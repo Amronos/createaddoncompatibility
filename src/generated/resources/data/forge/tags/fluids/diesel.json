@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "tfmg:diesel",
+      "required": false
+    },
+    {
+      "id": "tfmg:flowing_diesel",
+      "required": false
+    }
+  ]
+}

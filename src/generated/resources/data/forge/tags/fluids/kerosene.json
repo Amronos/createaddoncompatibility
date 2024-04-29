@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "tfmg:kerosene",
+      "required": false
+    },
+    {
+      "id": "tfmg:flowing_kerosene",
+      "required": false
+    }
+  ]
+}

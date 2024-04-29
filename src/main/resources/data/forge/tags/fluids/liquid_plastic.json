@@ -1,8 +1,0 @@
-{
-	"replace": false,
-	"values": [
-		"tfmg:liquid_plastic",
-		"tfmg:flowing_liquid_plastic",
-        "pneumaticcraft:plastic"
-	]
-}

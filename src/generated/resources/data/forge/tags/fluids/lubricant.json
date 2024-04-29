@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "tfmg:lubrication_oil",
+      "required": false
+    },
+    {
+      "id": "tfmg:flowing_lubrication_oil",
+      "required": false
+    }
+  ]
+}
