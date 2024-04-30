@@ -9,7 +9,7 @@ showAsResourcePack=false
 modId="createaddoncompatibility"
 version="${mod_version}"
 displayName="Create: Addon Compatibility"
-#updateJSONURL=""
+updateJSONURL="https://api.modrinth.com/updates/QgrK9rtJ/forge_updates.json"
 displayURL="https://modrinth.com/mod/create-addon-compatibility"
 logoFile="logo.png"
 #credits=""
@@ -18,6 +18,27 @@ description="Adds compatibility for and between different create addons."
 
 
 [dependencies]
+[[dependencies.createaddoncompatibility]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.createaddoncompatibility]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.createaddoncompatibility]]
+modId="neoforge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
 [[dependencies.createaddoncompatibility]]
 modId="almostunified"
 mandatory=true
