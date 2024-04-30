@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion= "[40,)"
+loaderVersion= "[47,)"
 
 license="GNU Lesser General Public License v3.0"
 issueTrackerURL="https://github.com/Amronos/create-addon-compatibility/issues"
@@ -27,13 +27,6 @@ side="BOTH"
 
 [[dependencies.createaddoncompatibility]]
 modId="forge"
-mandatory=true
-versionRange="[47,)"
-ordering="NONE"
-side="BOTH"
-
-[[dependencies.createaddoncompatibility]]
-modId="neoforge"
 mandatory=true
 versionRange="[47,)"
 ordering="NONE"
