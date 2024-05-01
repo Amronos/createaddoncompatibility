@@ -1,0 +1,28 @@
+{
+  "values": [
+    {
+      "id": "createdieselgenerators:crude_oil",
+      "required": false
+    },
+    {
+      "id": "createdieselgenerators:flowing_crude_oil",
+      "required": false
+    },
+    {
+      "id": "destroy:crude_oil",
+      "required": false
+    },
+    {
+      "id": "destroy:flowing_crude_oil",
+      "required": false
+    },
+    {
+      "id": "tfmg:crude_oil_fluid",
+      "required": false
+    },
+    {
+      "id": "tfmg:flowing_crude_oil_fluid",
+      "required": false
+    }
+  ]
+}

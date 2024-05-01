@@ -1,0 +1,68 @@
+{
+  "values": [
+    {
+      "id": "createaddition:bioethanol",
+      "required": false
+    },
+    {
+      "id": "createaddition:flowing_bioethanol",
+      "required": false
+    },
+    {
+      "id": "createdieselgenerators:biodiesel",
+      "required": false
+    },
+    {
+      "id": "createdieselgenerators:flowing_biodiesel",
+      "required": false
+    },
+    {
+      "id": "createdieselgenerators:diesel",
+      "required": false
+    },
+    {
+      "id": "createdieselgenerators:flowing_diesel",
+      "required": false
+    },
+    {
+      "id": "createdieselgenerators:ethanol",
+      "required": false
+    },
+    {
+      "id": "createdieselgenerators:flowing_ethanol",
+      "required": false
+    },
+    {
+      "id": "createdieselgenerators:gasoline",
+      "required": false
+    },
+    {
+      "id": "createdieselgenerators:flowing_gasoline",
+      "required": false
+    },
+    {
+      "id": "createdieselgenerators:plantoil",
+      "required": false
+    },
+    {
+      "id": "createdieselgenerators:flowing_plantoil",
+      "required": false
+    },
+    {
+      "id": "tfmg:diesel",
+      "required": false
+    },
+    {
+      "id": "tfmg:flowing_diesel",
+      "required": false
+    },
+    {
+      "id": "tfmg:gasoline",
+      "required": false
+    },
+    {
+      "id": "tfmg:flowing_gasoline",
+      "required": false
+    }
+  ]
+}

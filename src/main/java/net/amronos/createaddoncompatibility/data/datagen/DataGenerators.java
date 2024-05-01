@@ -1,4 +1,4 @@
-package net.amronos.createaddoncompatibility.datagen;
+package net.amronos.createaddoncompatibility.data.datagen;
 
 import net.amronos.createaddoncompatibility.CreateAddonCompatibility;
 import net.minecraft.core.HolderLookup;
@@ -20,6 +20,6 @@ public class DataGenerators {
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
 
-        generator.addProvider(event.includeServer(), new ForgeFluidTagGenerator(packOutput, lookupProvider, existingFileHelper));
+        generator.addProvider(event.includeServer(), new ModFluidTagGenerator(packOutput, lookupProvider, existingFileHelper));
     }
 }

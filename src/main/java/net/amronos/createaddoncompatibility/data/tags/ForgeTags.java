@@ -1,4 +1,4 @@
-package net.amronos.createaddoncompatibility.Tags;
+package net.amronos.createaddoncompatibility.data.tags;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.FluidTags;
