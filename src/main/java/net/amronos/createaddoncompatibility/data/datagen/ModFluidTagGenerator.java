@@ -8,12 +8,13 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.FluidTagsProvider;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
 
 
 public class ModFluidTagGenerator extends FluidTagsProvider {
-    public ModFluidTagGenerator(PackOutput p_255941_, CompletableFuture<HolderLookup.Provider> p_256600_, ExistingFileHelper existingFileHelper) {
+    public ModFluidTagGenerator(PackOutput p_255941_, CompletableFuture<HolderLookup.Provider> p_256600_, @Nullable ExistingFileHelper existingFileHelper) {
         super(p_255941_, p_256600_, CreateAddonCompatibility.MOD_ID, existingFileHelper);
     }
 

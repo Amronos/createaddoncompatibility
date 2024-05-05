@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "pneumaticcraft:plastic",
+      "required": false
+    },
+    {
+      "id": "tfmg:plastic_sheet",
+      "required": false
+    }
+  ]
+}
