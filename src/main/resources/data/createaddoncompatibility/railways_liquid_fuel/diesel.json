@@ -1,0 +1,6 @@
+{
+  "fluids": [
+    "#forge:diesel"
+  ],
+  "fuel_ticks": 550
+}
