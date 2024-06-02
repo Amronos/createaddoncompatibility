@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.amronos.createaddoncompatibility.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "almostunified.MixinDefaults"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "createaddoncompatiblity.refmap.json"
+}
