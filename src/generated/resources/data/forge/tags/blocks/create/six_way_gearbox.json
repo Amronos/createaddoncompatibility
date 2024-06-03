@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "create_connected:six_way_gearbox",
+      "required": false
+    },
+    {
+      "id": "createutilities:gearcube",
+      "required": false
+    }
+  ]
+}
