@@ -12,6 +12,8 @@ import net.minecraft.world.level.material.Fluid;
 public class ForgeTags {
 
     public static class Blocks {
+        public static final TagKey<Block> SIX_WAY_GEARBOX = tag("create/six_way_gearbox");
+
         private static TagKey<Block> tag(String name){
             return BlockTags.create(new ResourceLocation("forge", name));
         }
@@ -35,6 +37,7 @@ public class ForgeTags {
 
     public static class Items {
         public static final TagKey<Item> PLASTIC_SHEET = tag("plastic_sheet");
+        public static final TagKey<Item> SIX_WAY_GEARBOX = tag("create/six_way_gearbox");
 
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation("forge", name));

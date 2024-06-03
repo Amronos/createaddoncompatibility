@@ -23,5 +23,10 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .addOptional(new ResourceLocation("pneumaticcraft", "plastic"))
                 .addOptional(new ResourceLocation("tfmg", "plastic_sheet"))
         ;
+
+        this.tag(ForgeTags.Items.SIX_WAY_GEARBOX)
+                .addOptional(new ResourceLocation("create_connected", "six_way_gearbox"))
+                .addOptional(new ResourceLocation("createutilities", "gearcube"))
+        ;
     }
 }
