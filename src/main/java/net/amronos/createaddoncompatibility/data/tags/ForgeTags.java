@@ -28,7 +28,6 @@ public class ForgeTags {
         public static final TagKey<Fluid> KEROSENE = tag("kerosene");
         public static final TagKey<Fluid> LIQUID_PLASTIC = tag("liquid_plastic");
         public static final TagKey<Fluid> LUBRICANT = tag("lubricant");
-        public static final TagKey<Fluid> PLANTOIL = tag("plantoil");
 
         private static TagKey<Fluid> tag(String name) {
             return FluidTags.create(new ResourceLocation("forge", name));

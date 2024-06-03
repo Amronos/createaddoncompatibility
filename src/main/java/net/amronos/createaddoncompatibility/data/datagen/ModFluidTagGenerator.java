@@ -81,8 +81,5 @@ public class ModFluidTagGenerator extends FluidTagsProvider {
                 .addOptional(new ResourceLocation("tfmg", "lubrication_oil"))
                 .addOptional(new ResourceLocation("tfmg", "flowing_lubrication_oil"))
         ;
-        this.tag(ForgeTags.Fluids.PLANTOIL)
-                .addOptional(new ResourceLocation("garnished", "peanut_oil"))
-        ;
     }
 }
