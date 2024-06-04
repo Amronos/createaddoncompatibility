@@ -1,10 +1,8 @@
 package net.amronos.createaddoncompatibility.data.datagen;
 
 import net.amronos.createaddoncompatibility.CreateAddonCompatibility;
-import net.amronos.createaddoncompatibility.data.tags.ForgeTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -19,9 +17,6 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-        this.tag(ForgeTags.Blocks.SIX_WAY_GEARBOX)
-                .addOptional(new ResourceLocation("create_connected", "six_way_gearbox"))
-                .addOptional(new ResourceLocation("createutilities", "gearcube"))
-        ;
+
     }
 }
