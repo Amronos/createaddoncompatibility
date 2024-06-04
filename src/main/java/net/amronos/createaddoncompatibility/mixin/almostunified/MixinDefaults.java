@@ -29,7 +29,7 @@ public class MixinDefaults {
             "forge:storage_blocks/{material}",
             "forge:storage_blocks/raw_{material}",
             "forge:plastic_sheet",
-            "forge:create/six_way_gearbox"
+            "createaddoncompatibility:six_way_gearbox"
         );
     }
 

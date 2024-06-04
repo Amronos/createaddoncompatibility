@@ -1,17 +1,15 @@
 package net.amronos.createaddoncompatibility.data.tags;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.tags.FluidTags;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
-import net.minecraft.world.level.material.Fluid;
+import net.minecraft.world.item.Item;
 
 public class CopycatsTags {
-    public static class Fluids {
-        public static final TagKey<Fluid> FUEL = tag("fuel");
-        public static final TagKey<Fluid> OIL = tag("oil");
+    public static class Items {
 
-        private static TagKey<Fluid> tag(String name) {
-            return FluidTags.create(new ResourceLocation("ad_astra", name));
+        private static TagKey<Item> tag(String name) {
+            return ItemTags.create(new ResourceLocation("copycats", name));
         }
     }
 }

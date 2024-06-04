@@ -25,7 +25,6 @@ public class ForgeTags {
 
     public static class Items {
         public static final TagKey<Item> PLASTIC_SHEET = tag("plastic_sheet");
-        public static final TagKey<Item> SIX_WAY_GEARBOX = tag("create/six_way_gearbox");
 
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation("forge", name));

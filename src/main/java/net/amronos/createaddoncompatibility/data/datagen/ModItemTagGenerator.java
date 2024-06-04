@@ -1,6 +1,7 @@
 package net.amronos.createaddoncompatibility.data.datagen;
 
 import net.amronos.createaddoncompatibility.CreateAddonCompatibility;
+import net.amronos.createaddoncompatibility.data.tags.CreateAddonCompatibilityTags;
 import net.amronos.createaddoncompatibility.data.tags.ForgeTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -24,7 +25,8 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .addOptional(new ResourceLocation("tfmg", "plastic_sheet"))
         ;
 
-        this.tag(ForgeTags.Items.SIX_WAY_GEARBOX)
+
+        this.tag(CreateAddonCompatibilityTags.Items.SIX_WAY_GEARBOX)
                 .addOptional(new ResourceLocation("create_connected", "six_way_gearbox"))
                 .addOptional(new ResourceLocation("createutilities", "gearcube"))
         ;
