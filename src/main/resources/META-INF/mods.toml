@@ -79,7 +79,7 @@ mandatory=false
 versionRange="[0.2c.PREBETA,)"
 ordering="AFTER"
 side="BOTH"
-referralUrl="https://modrinth.com/mod/create-connected"
+referralUrl="https://modrinth.com/mod/create-dreams-and-desires"
 
 [[dependencies.createaddoncompatibility]]
 modId="createdieselgenerators"
@@ -95,7 +95,7 @@ mandatory=false
 versionRange="[0.3.0,)"
 ordering="AFTER"
 side="BOTH"
-referralUrl="https://modrinth.com/mod/create-diesel-generators"
+referralUrl="https://modrinth.com/mod/create-utilities"
 
 [[dependencies.createaddoncompatibility]]
 modId="destroy"
