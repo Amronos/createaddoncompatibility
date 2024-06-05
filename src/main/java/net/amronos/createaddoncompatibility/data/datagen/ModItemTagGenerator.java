@@ -1,6 +1,7 @@
 package net.amronos.createaddoncompatibility.data.datagen;
 
 import net.amronos.createaddoncompatibility.CreateAddonCompatibility;
+import net.amronos.createaddoncompatibility.data.tags.CopycatsTags;
 import net.amronos.createaddoncompatibility.data.tags.CreateAddonCompatibilityTags;
 import net.amronos.createaddoncompatibility.data.tags.ForgeTags;
 import net.minecraft.core.HolderLookup;
@@ -29,6 +30,19 @@ public class ModItemTagGenerator extends ItemTagsProvider {
         this.tag(CreateAddonCompatibilityTags.Items.SIX_WAY_GEARBOX)
                 .addOptional(new ResourceLocation("create_connected", "six_way_gearbox"))
                 .addOptional(new ResourceLocation("createutilities", "gearcube"))
+        ;
+
+        this.tag(CopycatsTags.Items.COPYCAT_BLOCK)
+                .addOptional(new ResourceLocation("create_dd", "copycat_block"))
+        ;
+        this.tag(CopycatsTags.Items.COPYCAT_BOX)
+                .addOptional(new ResourceLocation("create_connected", "copycat_box"))
+        ;
+        this.tag(CopycatsTags.Items.COPYCAT_CATWALK)
+                .addOptional(new ResourceLocation("create_connected", "copycat_catwalk"))
+        ;
+        this.tag(CopycatsTags.Items.COPYCAT_SLAB)
+                .addOptional(new ResourceLocation("create_dd", "copycat_slab"))
         ;
     }
 }

@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+      "id": "create_dd:copycat_block",
+      "required": false
+    }
+  ]
+}

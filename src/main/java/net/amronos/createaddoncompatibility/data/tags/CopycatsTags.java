@@ -7,6 +7,10 @@ import net.minecraft.world.item.Item;
 
 public class CopycatsTags {
     public static class Items {
+        public static final TagKey<Item> COPYCAT_BLOCK = tag("copycat_block");
+        public static final TagKey<Item> COPYCAT_BOX = tag("copycat_box");
+        public static final TagKey<Item> COPYCAT_CATWALK = tag("copycat_catwalk");
+        public static final TagKey<Item> COPYCAT_SLAB = tag("copycat_slab");
 
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation("copycats", name));
