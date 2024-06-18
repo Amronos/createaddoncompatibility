@@ -6,18 +6,21 @@
 
 <details>
 <summary>Copycats</summary>
+  
 Mods: [Create: Copycats+](https://modrinth.com/mod/copycats), [Create: Connected](https://modrinth.com/mod/create-connected), [CD&D](https://modrinth.com/mod/create-dreams-and-desires) <br> 
 Copycats+ takes priority, all copycats from the other mods are hid in JEI/REI/EMI. <br>
 </details>
 
 <details>
 <summary>Plastic Sheet</summary>
+  
 Mods: [Pneumaticcraft](https://modrinth.com/mod/pneumaticcraft-repressurized), [TFMG](https://modrinth.com/mod/create-tfmg) <br>
 Pneumaticcraft takes priority, recipes have been unified, TFMG's plastic sheet is hid in JEI/REI/EMI. <br>
 </details>
 
 <details>
 <summary>Six Way Gearbox</summary>
+  
 Mods: [Create: Connected](https://modrinth.com/mod/create-connected), [Create Utilities](https://modrinth.com/mod/create-utilities)<br>
 Create: Connected takes priority, recipes have been unified, Create Utilities's Gearcube is hid in JEI/REI/EMI. <br>
 </details>
@@ -27,12 +30,14 @@ Create: Connected takes priority, recipes have been unified, Create Utilities's 
 
 <details>
 <summary>Crude Oil</summary>
+  
 Mods: [Ad Astra](https://modrinth.com/mod/ad-astra), [CDG](https://modrinth.com/mod/create-diesel-generators), [Destroy](https://modrinth.com/mod/destroy), [Pneumaticcraft](https://modrinth.com/mod/pneumaticcraft-repressurized), [TFMG](https://modrinth.com/mod/create-tfmg) <br>
 Crude Oil from all these mods works in all distillation processes requiring it present in these mods.<br>
 </details>
 
 <details>
 <summary>Fuels</summary>
+  
 Mods: [Ad Astra](https://modrinth.com/mod/ad-astra), [CC&A](https://modrinth.com/mod/createaddition), [CDG](https://modrinth.com/mod/create-diesel-generators), [CSnR](https://modrinth.com/mod/create-steam-n-rails), [Destroy](https://modrinth.com/mod/destroy), [Create Garnished](https://modrinth.com/mod/create-garnished), [Pneumaticcraft](https://modrinth.com/mod/pneumaticcraft-repressurized), [TFMG](https://modrinth.com/mod/create-tfmg)<br>
 Various fuels from these mods work in various processes and recipes of CC&A.<br>
 Various fuels from these mods work in CDG's Diesel Generators.<br>
@@ -43,6 +48,7 @@ Currently only TFMG's fuels work in its generators as TFMG does not have support
 
 <details>
 <summary>Kerosene, Molten/Liquid Plastic, Lubricant/Lubrication Oil</summary>
+  
 Mods: [Pneumaticcraft](https://modrinth.com/mod/pneumaticcraft-repressurized), [TFMG](https://modrinth.com/mod/create-tfmg)<br>
 Kerosene, Molten/Liquid Plastic, Lubricant/Lubrication Oil from both mods works in both mods' processes and recipes.
 </details>
