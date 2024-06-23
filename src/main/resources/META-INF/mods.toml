@@ -76,7 +76,7 @@ referralUrl="https://modrinth.com/mod/create-connected"
 [[dependencies.createaddoncompatibility]]
 modId="create_dd"
 mandatory=false
-versionRange="[0.2c.PREBETA,)"
+versionRange="[0.1a.Release-Early-Dev,)"
 ordering="AFTER"
 side="BOTH"
 referralUrl="https://modrinth.com/mod/create-dreams-and-desires"
