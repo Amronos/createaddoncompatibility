@@ -1,7 +1,6 @@
 package net.amronos.createaddoncompatibility.data.datagen;
 
 import net.amronos.createaddoncompatibility.CreateAddonCompatibility;
-import net.amronos.createaddoncompatibility.data.tags.AdAstraTags;
 import net.amronos.createaddoncompatibility.data.tags.ForgeTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -20,33 +19,6 @@ public class ModFluidTagGenerator extends FluidTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
-        this.tag(AdAstraTags.Fluids.FUEL)
-                .addOptional(new ResourceLocation("createaddition", "bioethanol"))
-                .addOptional(new ResourceLocation("createaddition", "flowing_bioethanol"))
-                .addOptional(new ResourceLocation("createdieselgenerators", "biodiesel"))
-                .addOptional(new ResourceLocation("createdieselgenerators", "flowing_biodiesel"))
-                .addOptional(new ResourceLocation("createdieselgenerators", "diesel"))
-                .addOptional(new ResourceLocation("createdieselgenerators", "flowing_diesel"))
-                .addOptional(new ResourceLocation("createdieselgenerators", "ethanol"))
-                .addOptional(new ResourceLocation("createdieselgenerators", "flowing_ethanol"))
-                .addOptional(new ResourceLocation("createdieselgenerators", "gasoline"))
-                .addOptional(new ResourceLocation("createdieselgenerators", "flowing_gasoline"))
-                .addOptional(new ResourceLocation("createdieselgenerators", "plantoil"))
-                .addOptional(new ResourceLocation("createdieselgenerators", "flowing_plantoil"))
-                .addOptional(new ResourceLocation("tfmg", "diesel"))
-                .addOptional(new ResourceLocation("tfmg", "flowing_diesel"))
-                .addOptional(new ResourceLocation("tfmg", "gasoline"))
-                .addOptional(new ResourceLocation("tfmg", "flowing_gasoline"))
-        ;
-        this.tag(AdAstraTags.Fluids.OIL)
-                .addOptional(new ResourceLocation("createdieselgenerators", "crude_oil"))
-                .addOptional(new ResourceLocation("createdieselgenerators", "flowing_crude_oil"))
-                .addOptional(new ResourceLocation("destroy", "crude_oil"))
-                .addOptional(new ResourceLocation("destroy", "flowing_crude_oil"))
-                .addOptional(new ResourceLocation("tfmg", "crude_oil_fluid"))
-                .addOptional(new ResourceLocation("tfmg", "flowing_crude_oil_fluid"))
-        ;
-
         this.tag(ForgeTags.Fluids.CRUDE_OIL)
                 .addOptional(new ResourceLocation("ad_astra", "oil"))
                 .addOptional(new ResourceLocation("ad_astra", "flowing_oil"))
