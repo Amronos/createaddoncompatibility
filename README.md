@@ -39,6 +39,7 @@ Crude Oil from all these mods works in all distillation processes requiring it p
 <summary>Fuels</summary>
   
 Mods: [Ad Astra](https://modrinth.com/mod/ad-astra), [CC&A](https://modrinth.com/mod/createaddition), [CDG](https://modrinth.com/mod/create-diesel-generators), [CSnR](https://modrinth.com/mod/create-steam-n-rails), [Destroy](https://modrinth.com/mod/destroy), [Create Garnished](https://modrinth.com/mod/create-garnished), [Pneumaticcraft](https://modrinth.com/mod/pneumaticcraft-repressurized), [TFMG](https://modrinth.com/mod/create-tfmg)<br>
+Various fuels from these mods work in rockets of Ad Astra.(Can be disabled, see configuration section)<br>
 Various fuels from these mods work in various processes and recipes of CC&A.<br>
 Various fuels from these mods work in CDG's Diesel Generators.<br>
 Various fuels from these mods work in various processes and recipes of Pneumaticcraft.<br>
@@ -59,6 +60,11 @@ Kerosene, Molten/Liquid Plastic, Lubricant/Lubrication Oil from both mods works 
 The mod is currently only available for 1.20.1 (neo)forge. Fabric/Quilt versions and 1.19.2 versions may come later.<br>
 [Almost Unified](https://modrinth.com/mod/almost-unified) is required to be installed.<br>
 If you have the config file ``config/almostunified/unify.json`` please delete/replace it, don't do this if you are playing a modpack made by someone else(take advise from them on this). The file may require deletion or replacement after every update, for the newer features. For more info please view the [Wiki](https://github.com/Amronos/createaddoncompatibility/wiki/Unification-Config-Changes#changes-to-the-config-by-create-addon-compatibility).
+<br><br>
+
+## Compatibility Configuration
+There are datapacks present in the mod which allow you to change certain things about compatibility between different mods.<br>
+They can be enabled during world creation or by using the ``/datapack enable`` command.
 <br><br>
 
 ## Suggestions / More Compatibility Features
