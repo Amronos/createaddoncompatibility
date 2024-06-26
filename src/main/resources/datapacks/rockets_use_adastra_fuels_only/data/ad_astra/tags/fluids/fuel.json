@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "ad_astra:fuel",
+      "required": false
+    },
+    {
+      "id": "ad_astra:cryo_fuel",
+      "required": false
+    }
+  ]
+}
