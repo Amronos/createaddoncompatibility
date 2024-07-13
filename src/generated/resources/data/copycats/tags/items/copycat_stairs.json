@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "copycats:copycat_stairs",
+      "required": false
+    },
+    {
+      "id": "create_connected:copycat_stairs",
+      "required": false
+    }
+  ]
+}

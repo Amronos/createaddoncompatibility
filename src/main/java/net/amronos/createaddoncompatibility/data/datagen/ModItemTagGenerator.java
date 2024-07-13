@@ -21,9 +21,8 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-        this.tag(ForgeTags.Items.PLASTIC_SHEET)
+        this.tag(ForgeTags.Items.PLASTIC)
                 .addOptional(new ResourceLocation("pneumaticcraft", "plastic"))
-                .addOptional(new ResourceLocation("tfmg", "plastic_sheet"))
         ;
 
 
@@ -43,6 +42,11 @@ public class ModItemTagGenerator extends ItemTagsProvider {
         ;
         this.tag(CopycatsTags.Items.COPYCAT_SLAB)
                 .addOptional(new ResourceLocation("create_dd", "copycat_slab"))
+        ;
+        this.tag(CopycatsTags.Items.COPYCAT_STAIRS)
+                .replace(true)
+                .addOptional(new ResourceLocation("copycats", "copycat_stairs"))
+                .addOptional(new ResourceLocation("create_connected", "copycat_stairs"))
         ;
     }
 }

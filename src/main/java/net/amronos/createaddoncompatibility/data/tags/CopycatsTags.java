@@ -11,6 +11,7 @@ public class CopycatsTags {
         public static final TagKey<Item> COPYCAT_BOX = tag("copycat_box");
         public static final TagKey<Item> COPYCAT_CATWALK = tag("copycat_catwalk");
         public static final TagKey<Item> COPYCAT_SLAB = tag("copycat_slab");
+        public static final TagKey<Item> COPYCAT_STAIRS = tag("copycat_stairs");
 
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation("copycats", name));
