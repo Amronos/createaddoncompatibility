@@ -15,14 +15,6 @@
     {
       "id": "pneumaticcraft:flowing_oil",
       "required": false
-    },
-    {
-      "id": "tfmg:crude_oil_fluid",
-      "required": false
-    },
-    {
-      "id": "tfmg:flowing_crude_oil_fluid",
-      "required": false
     }
   ]
 }

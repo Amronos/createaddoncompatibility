@@ -11,10 +11,7 @@ public class ForgeTags {
 
     public static class Fluids {
         public static final TagKey<Fluid> CRUDE_OIL = tag("crude_oil");
-        public static final TagKey<Fluid> DIESEL = tag("diesel");
         public static final TagKey<Fluid> ETHANOL = tag("ethanol");
-        public static final TagKey<Fluid> GASOLINE = tag("gasoline");
-        public static final TagKey<Fluid> KEROSENE = tag("kerosene");
         public static final TagKey<Fluid> LIQUID_PLASTIC = tag("liquid_plastic");
         public static final TagKey<Fluid> LUBRICANT = tag("lubricant");
 
@@ -24,7 +21,7 @@ public class ForgeTags {
     }
 
     public static class Items {
-        public static final TagKey<Item> PLASTIC_SHEET = tag("plastic_sheet");
+        public static final TagKey<Item> PLASTIC = tag("ingots/plastic");
 
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation("forge", name));
