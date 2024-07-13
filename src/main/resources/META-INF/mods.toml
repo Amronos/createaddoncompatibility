@@ -35,7 +35,7 @@ side="BOTH"
 [[dependencies.createaddoncompatibility]]
 modId="almostunified"
 mandatory=true
-versionRange="[1.20.1-0.9.3,)"
+versionRange="[1.20.1-0.9.4,)"
 ordering="AFTER"
 side="BOTH"
 referralUrl="https://modrinth.com/mod/almost-unified"
