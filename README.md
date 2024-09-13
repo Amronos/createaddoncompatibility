@@ -59,10 +59,11 @@ Kerosene, Molten/Liquid Plastic, Lubricant/Lubrication Oil from both mods works 
 ## Installation
 The mod is currently only available for 1.20.1 (neo)forge. Fabric/Quilt versions and 1.19.2 versions may come later.<br>
 [Almost Unified](https://modrinth.com/mod/almost-unified) is required to be installed.<br>
-If you have the config file ``config/almostunified/unify.json`` please delete/replace it, don't do this if you are playing a modpack made by someone else(take advise from them on this). The file may require deletion or replacement after every update, for the newer features. For more info please view the [Wiki](https://github.com/Amronos/createaddoncompatibility/wiki/Unification-Config-Changes#changes-to-the-config-by-create-addon-compatibility).
 <br><br>
 
 ## Compatibility Configuration
+To change which mod has the priority in compatibility, modify the `modPriorities` in `config/almostunified/unify.json`, for more info look at [this](https://github.com/AlmostReliable/almostunified/wiki/Unification-Config).
+<br><br>
 There are datapacks present in the mod which allow you to change certain things about compatibility between different mods.<br>
 They can be enabled during world creation or by using the ``/datapack enable`` command.
 <br><br>
