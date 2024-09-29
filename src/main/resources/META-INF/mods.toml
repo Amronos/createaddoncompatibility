@@ -107,7 +107,7 @@ referralUrl="https://modrinth.com/mod/create-utilities"
 [[dependencies.createaddoncompatibility]]
 modId="destroy"
 mandatory=false
-versionRange="[0.1.0,)"
+versionRange="[0.1.0-snapshot-6,)"
 ordering="AFTER"
 side="BOTH"
 referralUrl="https://modrinth.com/mod/destroy"
