@@ -1,4 +1,4 @@
-package net.amronos.createaddoncompatibility;
+package com.amronos.createaddoncompatibility;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.common.MinecraftForge;
@@ -7,7 +7,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
-import net.amronos.createaddoncompatibility.registry.ModDatapacks;
+import com.amronos.createaddoncompatibility.registry.ModDatapacks;
 
 @Mod(CreateAddonCompatibility.MOD_ID)
 public class CreateAddonCompatibility {

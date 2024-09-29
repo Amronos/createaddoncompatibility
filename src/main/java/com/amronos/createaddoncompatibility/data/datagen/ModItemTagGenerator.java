@@ -1,9 +1,9 @@
-package net.amronos.createaddoncompatibility.data.datagen;
+package com.amronos.createaddoncompatibility.data.datagen;
 
-import net.amronos.createaddoncompatibility.CreateAddonCompatibility;
-import net.amronos.createaddoncompatibility.data.tags.CopycatsTags;
-import net.amronos.createaddoncompatibility.data.tags.CreateAddonCompatibilityTags;
-import net.amronos.createaddoncompatibility.data.tags.ForgeTags;
+import com.amronos.createaddoncompatibility.CreateAddonCompatibility;
+import com.amronos.createaddoncompatibility.data.tags.CopycatsTags;
+import com.amronos.createaddoncompatibility.data.tags.CreateAddonCompatibilityTags;
+import com.amronos.createaddoncompatibility.data.tags.ForgeTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;

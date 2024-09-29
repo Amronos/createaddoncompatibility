@@ -1,6 +1,6 @@
-package net.amronos.createaddoncompatibility.data.datagen;
+package com.amronos.createaddoncompatibility.data.datagen;
 
-import net.amronos.createaddoncompatibility.CreateAddonCompatibility;
+import com.amronos.createaddoncompatibility.CreateAddonCompatibility;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraftforge.common.data.BlockTagsProvider;

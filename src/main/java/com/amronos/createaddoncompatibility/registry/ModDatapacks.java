@@ -1,6 +1,6 @@
-package net.amronos.createaddoncompatibility.registry;
+package com.amronos.createaddoncompatibility.registry;
 
-import net.amronos.createaddoncompatibility.CreateAddonCompatibility;
+import com.amronos.createaddoncompatibility.CreateAddonCompatibility;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.packs.PackType;

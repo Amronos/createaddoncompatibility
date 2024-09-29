@@ -1,7 +1,7 @@
-package net.amronos.createaddoncompatibility.mixin;
+package com.amronos.createaddoncompatibility.mixin;
 
 import com.almostreliable.unified.config.UnifyConfig;
-import net.amronos.createaddoncompatibility.CreateAddonCompatibility;
+import com.amronos.createaddoncompatibility.CreateAddonCompatibility;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyVariable;
