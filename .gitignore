@@ -25,7 +25,6 @@ run-data
 *.vscode
 *.zip
 *.mrpack
-*.jar
 *.exe
 
 # Files from Forge MDK

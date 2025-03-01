@@ -22,6 +22,7 @@ public class ForgeTags {
 
     public static class Items {
         public static final TagKey<Item> PLASTIC = tag("ingots/plastic");
+        public static final TagKey<Item> COKE_DUST = tag("dusts/coal_coke");
 
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation("forge", name));
