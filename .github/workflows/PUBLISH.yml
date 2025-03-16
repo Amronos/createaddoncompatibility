@@ -5,7 +5,7 @@ on: [ workflow_dispatch ]
 env:
   MINECRAFT_VERSION: 1.20.1
   JAVA_VERSION: 17
-  VERSION: 0.2.3
+  VERSION: 0.2.4
   VERSION_TYPE: release
   PUBLISH_GITHUB_TOKEN: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
   PUBLISH_MODRINTH_TOKEN: ${{ secrets.PUBLISH_MODRINTH_TOKEN }}
@@ -66,3 +66,7 @@ jobs:
             neoforge
 
           files: "build/libs/createaddoncompatibility-${{env.VERSION}}.jar"
+
+          dependencies: |
+            create(required){modrinth:create}{curseforge:328085}#(ignore:github)
+            almostunified(required){modrinth:almost-unified}{curseforge:633823}#(ignore:github)
