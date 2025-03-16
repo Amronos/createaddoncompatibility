@@ -25,10 +25,6 @@ public class ModFluidTagGenerator extends FluidTagsProvider {
                 .addOptional(new ResourceLocation("pneumaticcraft", "oil"))
                 .addOptional(new ResourceLocation("pneumaticcraft", "flowing_oil"))
         ;
-        this.tag(ForgeTags.Fluids.ETHANOL)
-                .addOptional(new ResourceLocation("createaddition", "bioethanol"))
-                .addOptional(new ResourceLocation("createaddition", "flowing_bioethanol"))
-        ;
         this.tag(ForgeTags.Fluids.LIQUID_PLASTIC)
                 .addOptional(new ResourceLocation("pneumaticcraft", "plastic"))
                 .addOptional(new ResourceLocation("pneumaticcraft", "flowing_plastic"))

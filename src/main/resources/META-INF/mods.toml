@@ -1,16 +1,16 @@
 modLoader="javafml"
-loaderVersion= "[47,)"
+loaderVersion= "${loader_version_range}"
 
 license="GNU Lesser General Public License v3.0"
-issueTrackerURL="https://github.com/Amronos/create-addon-compatibility/issues"
+issueTrackerURL="https://github.com/Amronos/${mod_id}/issues"
 showAsResourcePack=false
 
 [[mods]]
-modId="createaddoncompatibility"
+modId="${mod_id}"
 version="${mod_version}"
 displayName="Create: Addon Compatibility"
 updateJSONURL="https://api.modrinth.com/updates/QgrK9rtJ/forge_updates.json"
-displayURL="https://modrinth.com/mod/create-addon-compatibility"
+displayURL="https://modrinth.com/mod/${mod_id}"
 logoFile="logo.png"
 #credits=""
 authors="Amronos"
@@ -18,29 +18,29 @@ description="Adds compatibility for and between different create addons."
 
 
 [dependencies]
-[[dependencies.createaddoncompatibility]]
+[[dependencies.${mod_id}]]
 modId="minecraft"
 mandatory=true
-versionRange="[1.20.1]"
+versionRange="${minecraft_version_range}"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.createaddoncompatibility]]
+[[dependencies.${mod_id}]]
 modId="forge"
 mandatory=true
-versionRange="[47,)"
+versionRange="${forge_version_range}"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.createaddoncompatibility]]
+[[dependencies.${mod_id}]]
 modId="almostunified"
 mandatory=true
-versionRange="[1.20.1-0.9.3,)"
+versionRange="[${almostunified_version},)"
 ordering="AFTER"
 side="BOTH"
 referralUrl="https://modrinth.com/mod/almost-unified"
 
-[[dependencies.createaddoncompatibility]]
+[[dependencies.${mod_id}]]
 modId="ad_astra"
 mandatory=false
 versionRange="[1.15.18,)"
@@ -48,7 +48,7 @@ ordering="AFTER"
 side="BOTH"
 referralUrl="https://modrinth.com/mod/ad-astra"
 
-[[dependencies.createaddoncompatibility]]
+[[dependencies.${mod_id}]]
 modId="copycats"
 mandatory=false
 versionRange="[1.3.8+mc.1.20.1-forge,)"
@@ -56,15 +56,15 @@ ordering="AFTER"
 side="BOTH"
 referralUrl="https://modrinth.com/mod/copycats"
 
-[[dependencies.createaddoncompatibility]]
+[[dependencies.${mod_id}]]
 modId="create"
 mandatory=true
-versionRange="[0.5.1.e,)"
+versionRange="${create_version_range}"
 ordering="AFTER"
 side="BOTH"
 referralUrl="https://modrinth.com/mod/create"
 
-[[dependencies.createaddoncompatibility]]
+[[dependencies.${mod_id}]]
 modId="createaddition"
 mandatory=false
 versionRange="[1.20.1-1.2.2,)"
@@ -72,7 +72,7 @@ ordering="AFTER"
 side="BOTH"
 referralUrl="https://modrinth.com/mod/createaddition"
 
-[[dependencies.createaddoncompatibility]]
+[[dependencies.${mod_id}]]
 modId="create_connected"
 mandatory=false
 versionRange="[0.8.2-mc1.20.1,)"
@@ -80,7 +80,7 @@ ordering="AFTER"
 side="BOTH"
 referralUrl="https://modrinth.com/mod/create-connected"
 
-[[dependencies.createaddoncompatibility]]
+[[dependencies.${mod_id}]]
 modId="create_dd"
 mandatory=false
 versionRange="[0.1a.Release-Early-Dev,)"
@@ -88,15 +88,15 @@ ordering="AFTER"
 side="BOTH"
 referralUrl="https://modrinth.com/mod/create-dreams-and-desires"
 
-[[dependencies.createaddoncompatibility]]
+[[dependencies.${mod_id}]]
 modId="createdieselgenerators"
 mandatory=false
-versionRange="[1.20.1-1.2h,)"
+versionRange="[${createdieselgenerators_version},)"
 ordering="AFTER"
 side="BOTH"
 referralUrl="https://modrinth.com/mod/create-diesel-generators"
 
-[[dependencies.createaddoncompatibility]]
+[[dependencies.${mod_id}]]
 modId="createutilities"
 mandatory=false
 versionRange="[0.3.0,)"
@@ -104,7 +104,7 @@ ordering="AFTER"
 side="BOTH"
 referralUrl="https://modrinth.com/mod/create-utilities"
 
-[[dependencies.createaddoncompatibility]]
+[[dependencies.${mod_id}]]
 modId="destroy"
 mandatory=false
 versionRange="[0.1.0-snapshot-6,)"
@@ -112,7 +112,7 @@ ordering="AFTER"
 side="BOTH"
 referralUrl="https://modrinth.com/mod/destroy"
 
-[[dependencies.createaddoncompatibility]]
+[[dependencies.${mod_id}]]
 modId="garnished"
 mandatory=false
 versionRange="[1.8.3,)"
@@ -120,7 +120,14 @@ ordering="AFTER"
 side="BOTH"
 referralUrl="https://modrinth.com/mod/create-garnished"
 
-[[dependencies.createaddoncompatibility]]
+[[dependencies.${mod_id}]]
+modId="jei"
+mandatory=false
+versionRange="[${jei_version},)"
+ordering="AFTER"
+side="CLIENT"
+
+[[dependencies.${mod_id}]]
 modId="pneumaticcraft"
 mandatory=false
 versionRange="[6.0.14,)"
@@ -128,7 +135,7 @@ ordering="AFTER"
 side="BOTH"
 referralUrl="https://modrinth.com/mod/pneumaticcraft-repressurized"
 
-[[dependencies.createaddoncompatibility]]
+[[dependencies.${mod_id}]]
 modId="railways"
 mandatory=false
 versionRange="[1.6.3,)"
@@ -136,10 +143,10 @@ ordering="AFTER"
 side="BOTH"
 referralUrl="https://modrinth.com/mod/create-steam-n-rails"
 
-[[dependencies.createaddoncompatibility]]
+[[dependencies.${mod_id}]]
 modId="tfmg"
 mandatory=false
-versionRange="[0.8.0b,)"
+versionRange="[${tfmg_version},)"
 ordering="AFTER"
 side="BOTH"
 referralUrl="https://modrinth.com/mod/create-tfmg"

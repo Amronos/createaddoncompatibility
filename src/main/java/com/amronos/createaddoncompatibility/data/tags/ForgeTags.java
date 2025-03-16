@@ -11,7 +11,6 @@ public class ForgeTags {
 
     public static class Fluids {
         public static final TagKey<Fluid> CRUDE_OIL = tag("crude_oil");
-        public static final TagKey<Fluid> ETHANOL = tag("ethanol");
         public static final TagKey<Fluid> LIQUID_PLASTIC = tag("liquid_plastic");
         public static final TagKey<Fluid> LUBRICANT = tag("lubricant");
 
