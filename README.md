@@ -30,6 +30,7 @@ Create: Connected takes priority, recipes have been unified, Create Utilities's 
 
 Mods: [Immersive Engineering](https://modrinth.com/mod/immersiveengineering), [TFMG](https://modrinth.com/mod/create-tfmg)<br>
 Coal Coke Dust from both mods works in both mods' processes and recipes.
+
 </details>
 <br>
 
@@ -64,23 +65,27 @@ Kerosene, Molten/Liquid Plastic, Lubricant/Lubrication Oil from both mods works 
 <br><br>
 
 ## Installation
-The mod is currently only available for 1.20.1 (neo)forge. Fabric/Quilt versions and >=1.21.1 versions will come soon. A port to 1.19.2 is not planned.<br>
+
+The mod is currently only available for 1.20.1 and 1.21.1 (neo)forge. Fabric/Quilt versions will come soon.<br>
 [Almost Unified](https://modrinth.com/mod/almost-unified) is required to be installed.<br>
 <br><br>
 
 ## Compatibility Configuration
+
 To change which mod has the priority in compatibility, modify the `modPriorities` in `config/almostunified/unify.json`, for more info look at [this](https://github.com/AlmostReliable/almostunified/wiki/Unification-Config).
 <br><br>
 There are datapacks present in the mod which allow you to change certain things about compatibility between different mods.<br>
-They can be enabled during world creation or by using the ``/datapack enable`` command.
+They can be enabled during world creation or by using the `/datapack enable` command.
 <br><br>
 
 ## Suggestions / More Compatibility Features
+
 I do have more compatibility features planned, but if you have any ideas feel free to create an issue on GitHub or tell me in the Discord server.
 
 <br><br>
 
 ## Credits
+
 Thanks to the creators of the various mods for which compatibility has been added in this mod.<br>
 Thanks to the AlmostReliable team for making Almost Unified, without which this mod would have been very difficult to make.<br>
 Finally, thanks to the people on the Minecraft Mod Development discord for helping me out with some features in the mod.
