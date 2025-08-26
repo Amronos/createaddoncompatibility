@@ -4,13 +4,12 @@
   "package": "dev.amronos.createaddoncompatibility.mixin",
   "refmap": "${mod_id}.refmap.json",
   "compatibilityLevel": "JAVA_18",
-  "mixins": [],
-  "client": [
-    "MixinMinecraft"
+  "mixins": [
+    "MixinUnifySerializer"
   ],
+  "client": [],
   "server": [],
   "injectors": {
     "defaultRequire": 1
   }
 }
-
