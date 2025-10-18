@@ -7,37 +7,34 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyVariable;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 @Mixin(UnificationConfig.UnifySerializer.class)
 public class MixinUnifySerializer {
-    @ModifyVariable(method = "handleDeserialization*", at = @At(value = "RETURN"), ordinal = 0, name = "modPriorities", remap = false)
+    @ModifyVariable(method = "handleDeserialization*", at = @At(value = "STORE"), name = "modPriorities", remap = false)
     private List<String> modPrioritiesMixin(List<String> modPriorities){
         Constants.LOG.info("Adding modPriorities for AlmostUnified, this will not reflect in unify.json");
-        modPriorities = new ArrayList<>(modPriorities);
+        ArrayList<String> newModPriorities = new ArrayList<>(modPriorities);
         List<String> cacModPriorities = new ArrayList<>();
         cacModPriorities.add("pneumaticcraft");
         cacModPriorities.add("copycats");
         cacModPriorities.add("create_connected");
-        cacModPriorities.add("createutilities");
         cacModPriorities.add("create_dd");
         cacModPriorities.add("tfmg");
         for (String i : cacModPriorities) {
-            if (!modPriorities.contains(i)) {
-                modPriorities.add(i);
+            if (!newModPriorities.contains(i)) {
+                newModPriorities.add(i);
             }
         }
-        modPriorities = Collections.unmodifiableList(modPriorities);
-        return modPriorities;
+        return newModPriorities;
     }
 
-    @ModifyVariable(method = "handleDeserialization*", at = @At(value = "RETURN"), ordinal = 2, name = "tags", remap = false)
+    @ModifyVariable(method = "handleDeserialization*", at = @At(value = "STORE"), name = "tags", remap = false)
     private List<String> tagsMixin(List<String> tags){
         Constants.LOG.info("Adding tags for AlmostUnified, this will not reflect in unify.json");
-        tags = new ArrayList<>(tags);
+        ArrayList<String> newTags = new ArrayList<>(tags);
         List<String> cacTags = new ArrayList<>();
-        cacTags.add("forge:plastic_sheet");
+        cacTags.add("c:ingots/plastic");
         cacTags.add("createaddoncompatibility:six_way_gearbox");
         cacTags.add("copycats:copycat_beam");
         cacTags.add("copycats:copycat_block");
@@ -51,11 +48,10 @@ public class MixinUnifySerializer {
         cacTags.add("copycats:copycat_vertical_step");
         cacTags.add("copycats:copycat_wall");
         for (String i : cacTags) {
-            if (!tags.contains(i)) {
-                tags.add(i);
+            if (!newTags.contains(i)) {
+                newTags.add(i);
             }
         }
-        tags = Collections.unmodifiableList(tags);
-        return tags;
+        return newTags;
     }
 }

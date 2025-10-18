@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "pneumaticcraft:plastic",
+      "required": false
+    },
+    {
+      "id": "pneumaticcraft:flowing_plastic",
+      "required": false
+    },
+    {
+      "id": "tfmg:liquid_plastic",
+      "required": false
+    },
+    {
+      "id": "tfmg:flowing_liquid_plastic",
+      "required": false
+    }
+  ]
+}
