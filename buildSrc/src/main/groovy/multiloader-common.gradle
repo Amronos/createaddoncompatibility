@@ -44,6 +44,17 @@ repositories {
     }
     maven { url = "https://maven.createmod.net" } // Create, Ponder, Flywheel
     maven { url = "https://maven.ithundxr.dev/snapshots" } // Registrate
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+        filter {
+            includeGroup "maven.modrinth"
+        }
+    }
 }
 
 // Declare capabilities on the outgoing configurations.

@@ -44,6 +44,7 @@ dependencies {
     runtimeOnly("dev.engine-room.flywheel:flywheel-neoforge-${minecraft_version}:${flywheel_version}")
     implementation("com.tterrag.registrate:Registrate:${registrate_version}")
     implementation("com.almostreliable.mods:almostunified-neoforge:${almostunified_version}")
+    implementation("maven.modrinth:create-tfmg:4VjjDOtF")
 }
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }

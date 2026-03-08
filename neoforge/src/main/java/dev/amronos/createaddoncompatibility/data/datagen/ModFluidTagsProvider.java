@@ -7,6 +7,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.FluidTagsProvider;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -18,7 +19,7 @@ public class ModFluidTagsProvider extends FluidTagsProvider {
     }
 
     @Override
-    protected void addTags(HolderLookup.Provider lookupProvider) {
+    protected void addTags(HolderLookup.@NotNull Provider lookupProvider) {
         tag(CommonTags.Fluids.CRUDE_OIL)
                 .addOptional(ResourceLocation.fromNamespaceAndPath("pneumaticcraft", "flowing_oil"))
         ;
