@@ -1,10 +1,10 @@
 name: Publish on GitHub, Modrinth, CurseForge
 
-on: [ workflow_dispatch ]
+on: [workflow_dispatch]
 
 env:
-  MINECRAFT_VERSION: 1.20.1
-  JAVA_VERSION: 17
+  MINECRAFT_VERSION: 1.21.1
+  JAVA_VERSION: 21
   VERSION: 0.2.4
   VERSION_TYPE: release
   PUBLISH_GITHUB_TOKEN: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
@@ -55,17 +55,15 @@ jobs:
           curseforge-id: 1000148
           curseforge-token: "${{env.PUBLISH_CURSEFORGE_TOKEN}}"
 
-          name: "Create: Addon Compatibility - v${{env.VERSION}} - ${{env.MINECRAFT_VERSION}} - (neo)forge"
+          name: "Create: Addon Compatibility - v${{env.VERSION}} - Neoforge - ${{env.MINECRAFT_VERSION}}"
           version: "${{env.VERSION}}"
           version-type: "${{env.VERSION_TYPE}}"
           changelog-file: LATEST_CHANGELOG.md
           game-version-filter: releases
 
-          loaders: |
-            forge
-            neoforge
+          loaders: neoforge
 
-          files: "build/libs/createaddoncompatibility-${{env.VERSION}}.jar"
+          files: "neoforge/build/libs/createaddoncompatibility-neoforge-${{env.MINECRAFT_VERSION}}-${{env.VERSION}}.jar"
 
           dependencies: |
             create(required){modrinth:create}{curseforge:328085}#(ignore:github)

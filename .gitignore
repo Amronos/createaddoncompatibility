@@ -11,21 +11,15 @@ out
 *.ipr
 *.iws
 *.iml
-.idea
+.idea/*
+!.idea/scopes
 
 # gradle
 build
 .gradle
 
 # other
+.cache
 eclipse
 run
-run-data
-.cache
-*.vscode
-*.zip
-*.mrpack
-*.exe
-
-# Files from Forge MDK
-forge*changelog.txt
+runs
