@@ -5,3 +5,4 @@
 - Coal Coke Dust
 - Six Way Gearbox - Create Utilities hasn't updated to Minecraft 1.21.1
 - Ad Astra and CSnR - These mods haven't updated to Minecraft 1.21.1
+- Fuels from other mods working in CDG - Needs fixes on CDG's side
