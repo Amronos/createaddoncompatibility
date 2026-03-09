@@ -116,6 +116,7 @@ processResources {
             'flywheel_version'             : flywheel_version,
             'registrate_version'           : registrate_version,
             'almostunified_version'        : almostunified_version,
+            'tfmg_version'                 : tfmg_version,
     ]
 
     filesMatching(['pack.mcmeta', 'fabric.mod.json', 'META-INF/mods.toml', 'META-INF/neoforge.mods.toml', '*.mixins.json']) {

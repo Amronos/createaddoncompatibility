@@ -3,9 +3,7 @@
   "minVersion": "0.8",
   "package": "dev.amronos.createaddoncompatibility.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [
-    "MixinUnifySerializer"
-  ],
+  "mixins": [],
   "client": [],
   "server": [],
   "injectors": {

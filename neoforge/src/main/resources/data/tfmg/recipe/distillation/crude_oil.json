@@ -1,0 +1,36 @@
+{
+  "type": "tfmg:distillation",
+  "ingredients": [
+    {
+      "type": "neoforge:tag",
+      "amount": 340,
+      "tag": "c:crude_oil"
+    }
+  ],
+  "results": [
+    {
+      "amount": 120,
+      "id": "tfmg:heavy_oil"
+    },
+    {
+      "amount": 60,
+      "id": "tfmg:diesel"
+    },
+    {
+      "amount": 30,
+      "id": "tfmg:kerosene"
+    },
+    {
+      "amount": 10,
+      "id": "tfmg:naphtha"
+    },
+    {
+      "amount": 60,
+      "id": "tfmg:gasoline"
+    },
+    {
+      "amount": 60,
+      "id": "tfmg:lpg"
+    }
+  ]
+}

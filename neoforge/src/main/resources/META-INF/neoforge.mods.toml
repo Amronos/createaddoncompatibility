@@ -35,7 +35,7 @@ side = "BOTH"
 
 [[dependencies.${mod_id}]]
 modId="almostunified"
-mandatory=true
+type="required"
 versionRange="[${almostunified_version},)"
 ordering="AFTER"
 side="SERVER"
@@ -43,8 +43,16 @@ referralUrl="https://modrinth.com/mod/almost-unified"
 
 [[dependencies.${mod_id}]]
 modId="create"
-mandatory=true
-versionRange="[6.0.6,6.1.0)"
+type="required"
+versionRange="[6.0.9,6.1.0)"
 ordering="AFTER"
 side="BOTH"
 referralUrl="https://modrinth.com/mod/create"
+
+[[dependencies.${mod_id}]]
+modId="tfmg"
+type="optional"
+versionRange="[${tfmg_version},)"
+ordering="AFTER"
+side="BOTH"
+referralUrl="https://modrinth.com/mod/create-tfmg"
