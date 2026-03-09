@@ -1,3 +1,3 @@
-### v0.2.4
-Fixed biofuel from Create Crafts & Additions not super heating
-Ad Astra fuels and Create: Garnished peanut oil now work in diesel generators
+### v1.0.0
+The port to Minecraft 1.21.1 is finally here!
+A bunch of bug fixes.
